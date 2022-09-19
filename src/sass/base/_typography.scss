@@ -1,0 +1,18 @@
+@use 'fonts' as *;
+
+// Headings
+
+h1 {
+    font-family: var(--ff-headings);
+    color: var(--clr-dark);
+}
+
+h2 {
+    font-family: var(--ff-headings);
+}
+
+// Paragraph
+
+p {
+    font-family: var(--ff-body);
+}
