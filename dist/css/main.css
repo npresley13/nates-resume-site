@@ -151,6 +151,7 @@ p {
 .image-container {
   width: 50%;
   overflow: hidden;
+  border-radius: 20px;
 }
 
 .about-section {
@@ -171,6 +172,7 @@ p {
   aspect-ratio: 1/1;
   overflow-y: hidden;
   position: relative;
+  border-radius: 20px;
 }
 
 .hover-box:hover {
