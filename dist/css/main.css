@@ -199,6 +199,11 @@ p {
   padding: 2em;
 }
 
+main {
+  min-height: 90vh;
+  position: relative;
+}
+
 .center-object {
   position: relative;
   top: 50%;
@@ -208,12 +213,13 @@ p {
 
 nav {
   background-color: var(--clr-dark-purple);
-  height: 10vh;
+  height: 5vh;
 }
 
 footer {
-  height: 10vh;
+  height: 5vh;
   background-color: var(--clr-dark-purple);
+  width: 100%;
 }
 
 .footer-text {
