@@ -11,6 +11,14 @@ h2 {
     font-family: var(--ff-headings);
 }
 
+h3 {
+    font-family: var(--ff-headings);
+}
+
+h4 {
+    font-family: var(--ff-headings);
+}
+
 // Paragraph
 
 p {
@@ -19,4 +27,23 @@ p {
 
 .light-text {
     color: var(--clr-light)
+}
+
+// Links
+
+a {
+    text-decoration: none;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+}
+
+a:hover {
+    text-shadow: 3px 3px #000;
 }

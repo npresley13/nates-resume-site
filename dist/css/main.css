@@ -84,12 +84,36 @@ h2 {
   font-family: var(--ff-headings);
 }
 
+h3 {
+  font-family: var(--ff-headings);
+}
+
+h4 {
+  font-family: var(--ff-headings);
+}
+
 p {
   font-family: var(--ff-body);
 }
 
 .light-text {
   color: var(--clr-light);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+a:hover {
+  text-shadow: 3px 3px #000;
 }
 
 :root {
@@ -174,6 +198,7 @@ p {
   overflow-y: hidden;
   position: relative;
   border-radius: 15px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7);
 }
 
 .hover-box:hover {
@@ -194,6 +219,13 @@ p {
 
 .hover-box:hover .hover-overlay {
   transform: translateY(0);
+}
+
+.job-description {
+  background-color: lightgray;
+  width: fit-content;
+  max-width: 400px;
+  border: solid 2px;
 }
 
 .main-container {
