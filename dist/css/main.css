@@ -221,37 +221,43 @@ a:hover {
   transform: translateY(0);
 }
 
-.job-block:nth-child(even) {
-  flex-direction: row-reverse;
+.work-title {
+  text-align: center;
 }
 
-.job-block {
-  display: flex;
-  flex-direction: row;
-  margin-top: 2em;
+.timeline-component {
+  margin: 0 20px 20px 20px;
 }
 
-.right {
-  justify-content: right;
+.timeline-right {
+  text-align: left;
 }
 
-.left {
-  justify-content: left;
+.timeline-left {
+  text-align: right;
+}
+
+.timeline-middle {
+  position: relative;
+  background: black;
+}
+
+.timeline-point {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 15px;
+  height: 15px;
+  background: var(--clr-dark-purple);
+  border-radius: 50%;
 }
 
 .job-description {
-  background-color: lightgray;
-  width: fit-content;
-  max-width: 400px;
-  border: solid 2px;
-  padding: 1em;
-}
-
-.timeline-dot {
-  width: 16px;
-  height: 16px;
-  background-color: black;
-  border-radius: 50%;
+  background: var(--clr-light-purple);
+  border: solid;
+  padding: 1.5em;
+  border-radius: 10px;
 }
 
 .main-container {
@@ -263,11 +269,6 @@ a:hover {
 main {
   min-height: 90vh;
   position: relative;
-}
-
-.timeline {
-  max-width: 800px;
-  margin: auto;
 }
 
 .center-object {
@@ -290,6 +291,14 @@ footer {
 
 .footer-text {
   color: var(--clr-light);
+}
+
+.timeline {
+  margin: 0 auto;
+  max-width: 750px;
+  padding: 25px;
+  display: grid;
+  grid-template-columns: 1FR 3px 1FR;
 }
 
 /*# sourceMappingURL=main.css.map */
