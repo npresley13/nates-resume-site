@@ -176,7 +176,8 @@ a:hover {
 .image-container {
   width: 50%;
   overflow: hidden;
-  border-radius: 15px;
+  border-radius: 10px;
+  border: solid black;
 }
 
 .about-section {
@@ -197,8 +198,8 @@ a:hover {
   aspect-ratio: 1/1;
   overflow-y: hidden;
   position: relative;
-  border-radius: 15px;
-  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  border: solid black;
 }
 
 .hover-box:hover {
@@ -251,6 +252,7 @@ a:hover {
   height: 15px;
   background: var(--clr-dark-purple);
   border-radius: 50%;
+  margin-top: 11px;
 }
 
 .job-description {

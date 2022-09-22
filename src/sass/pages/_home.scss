@@ -12,7 +12,8 @@
 .image-container {
     width: 50%;
     overflow: hidden;
-    border-radius: 15px;
+    border-radius: 10px;
+    border: solid black;
 }
 
 .about-section {
@@ -35,8 +36,9 @@
     aspect-ratio: 1/1;
     overflow-y: hidden;
     position: relative;
-    border-radius: 15px;
-    box-shadow: 10px 10px 15px rgba(black, .3);
+    border-radius: 10px;
+    border: solid black;
+    //box-shadow: 10px 10px 15px rgba(black, .3);
 }
 
 .hover-box:hover {
