@@ -241,6 +241,7 @@ a:hover {
 .timeline-middle {
   position: relative;
   background: black;
+  top: 11px;
 }
 
 .timeline-point {
@@ -252,7 +253,6 @@ a:hover {
   height: 15px;
   background: var(--clr-dark-purple);
   border-radius: 50%;
-  margin-top: 11px;
 }
 
 .job-description {
